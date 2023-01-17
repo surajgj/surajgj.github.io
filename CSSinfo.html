@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Css (Cascading Style Sheet)</title>
+        <style>
+            h1{
+                color: chartreuse;
+                font-size: 50px;
+                font-weight: bolder;
+                font-style: normal;
+                text: uppercase;
+                text-decoration: underline;
+                font-family: unset;
+                
+                /* Task - Create h2 till h6 check 
+                font properties text properties */
+
+            }
+            .shit{
+                color: blue;
+                padding: 10px;
+            }
+            #google{
+                color: aquamarine;
+                
+            }
+            .padding{
+                padding: 10px 20px 50px 100px;
+            }
+            .padding{
+
+                padding-left: 0px;
+                padding-bottom: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Cascading Style Sheet</h1>
+        <h1 class="shit"  id="google">Cascading Style Sheet</h1>
+        <h1 >cascading style Sheet</h1>
+
+        <div class="padding">Hello iam Padding</div>
+
+    </body>
+</html>
+<!-- disadvantages / Limitation of html
+        color
+        fontsize
+        allignment
+        backgroundcolor
+        spacing
+        
+        above this can be solved by using CSS ()
+    
+        css basic syntax
+        selector {
+            property : value;
+        }
+
+        Ways to write cass
+        types
+        1. Internal CSS - In the html file within style tag
+        2. External Css - External css file andd link to html
+        
+        Different Se00lector
+        1. Element selector - h1,div,a
+            h1{
+                color:blue;
+            } 
+        2. Grouping selector
+            h1,h2,h3{         // avoid code duplication - writing same code again and again
+                color: red;  
+            }
+        3. Class Selector   // has Hiiighest Priority
+            <h1 class="shit"> Iam Lofer <h1>
+                insidehead write .class selector ex
+                .shit{
+                    color="white";
+                }
+                provide same class name to multiple elements 
+        4. Id Selector
+            id="Variable_name"
+            #variable_name to give css to the selector 
+            it has highest priority than class
+            id name should be unique for each use
+
+
+    Css Box Model: these are used with selectors
+    1. Padding 
+    2. Border
+         
+        -->
